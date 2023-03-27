@@ -1,0 +1,148 @@
+/* Common styles */
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.col {
+  flex: 0 0 45%;
+  margin: 10px;
+}
+
+.account-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.account-id {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.account-description {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 768px) {
+  .account-block {
+    background-color: #1a1a1a;
+    width: 200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto; /* Центрируем блоки внутри родительского элемента */
+  }
+  
+  .about-block {
+    background-color: #1a1a1a;
+    width: 60%;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-block h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .about-block p {
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+  }
+  
+  .centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-block {
+    background-color: #1a1a1a;
+    width: 80%;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 767px) {
+  .account
+}
